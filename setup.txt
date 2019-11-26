@@ -1,0 +1,17 @@
+upload minesweeper to git
+
+-Game renderd
+-Settings renderd
+-Board (Rows and Squares)renderd
+-Generate Random mines depends on board size (minesGenerator.js) + tests + set mines amount in settings
+Repetitive:{
+-Set action when clicking on square (check if hit mine or other field & render)
+-Calculate game status
+}
+-Game Over.
+
+Father of rows (no div);
+New object without object.assign
+Components to functions
+Hooks - feature of react
+Lodash - library for calculations 
