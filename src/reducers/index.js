@@ -4,8 +4,8 @@ import updateSquares from './updateBoardSquaresReducer';
 import mineClick from './mineClickedReducer';
 
 const rootReducer = combineReducers({
-    updateSettings,
     updateSquares,
+    updateSettings,
     mineClick,
 });
 

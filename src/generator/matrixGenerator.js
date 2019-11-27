@@ -4,7 +4,7 @@ const createEmptyMatrix = (matrixLength) => {
     for (let row = 0; row < matrixLength; row++) {
         matrix[row] = [];
         for (let column = 0; column < matrixLength; column++) {
-            matrix[row][column] = {isMine: false, isDisable: false, value: null, markedAsFlag: false};
+            matrix[row][column] = {row, column};
         }
     }
 

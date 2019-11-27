@@ -73,6 +73,7 @@ button:hover:enabled {
 label{
   padding: 5px;
   font-size: large;
+  font-weight: bold;
 }
 
 .mine{
