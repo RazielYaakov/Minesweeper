@@ -15,7 +15,7 @@ const Game = ({ boardLength, minesAmount, flagsAmount, isMineClicked, isPlayerWi
 
 const determineGameStatus = (isMineClicked, isPlayerWin) => {
   if (isMineClicked) {
-    return 'You lose, Game over!';
+    return 'Ilona ya mshakla!';
   } else if (isPlayerWin) {
     return 'You win ya badass minesweeper!';
   } else {
